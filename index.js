@@ -14,41 +14,41 @@ app.post('/login', jsonParser, function (req, res) {
   let userName = req.body.username.replace(' ', '').toLowerCase();
   console.log(userName);
   switch(userName) {
-    case "imadmajid":
-      res.send('Well done ' + req.body.username + '\nThe QA Postman himself')
+    case "user1":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break;
-    case "mohammadarif":
+    case "user2":
       res.send('Welcome, \nWell done! ' + req.body.username)
       break;
-    case "martintyler":
-      res.send('Well done ' + req.body.username + '\nDJ Tyler - automating mixes')
+    case "user3":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break;
-    case "jackbristow":
-      res.send('Well done ' + req.body.username + '\nThe Bosstrow - Right, time to get back to work!')
+    case "user4":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break;
-    case "ramyasampath":
-      res.send('Well done ' + req.body.username + '\nA true legend in the making')
+    case "user5":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break; 
-    case "alexandracernescu":
-      res.send('Well done ' + req.body.username + '\nAlways on fire!')
+    case "user6":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break; 
-    case "pratikbrahmapurkar":
-      res.send('Well done ' + req.body.username + '\nThe Yoga Master')
+    case "user7":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break; 
-    case "thomasabraham":
-      res.send('Well done ' + req.body.username + '\nDon\'t forget your protein shake')
+    case "user8":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break; 
-    case "halynakustova":
-      res.send('Well done ' + req.body.username + '\nThe quizmaster!')
+    case "user9":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break;
-    case "karolmorales":
-      res.send('Well done ' + req.body.username + '\nKick Ass Karol indeed')
+    case "user10":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break;
-    case "michaelsobowale":
-      res.send('Well done ' + req.body.username + '\nWelcome...to the real world')
+    case "user11":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break;
-    case "mitchelwemah":
-      res.send('Well done ' + req.body.username + '\nDid somebody say regression? ...I got this')
+    case "user12":
+      res.send('Well done ' + req.body.username + '\nQUOTE')
       break;
     default:
       res.send('Check your full name is correct (and check you havent been fired)')
